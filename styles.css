@@ -1,0 +1,46 @@
+a {
+    font-size: x-large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white; 
+}
+a:hover {
+    font-style: italic;
+}
+a:visited {
+    color: rgb(178, 217, 245);
+}
+.bold {
+    font-weight: bold;
+}
+.homebg {
+    background-image: url('./Stars.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.YIncubatorbg {
+    background-image: url('./Stars.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.italics {
+    font-style: italic;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.resume {
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
